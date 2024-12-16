@@ -15,8 +15,6 @@ if __name__ == "__multiplicacao__":
     multiplicacao()
 
 def main():
-
     multiplicacao()
-
 if __name__ == "__main__":
     main()
