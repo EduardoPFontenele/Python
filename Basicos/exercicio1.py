@@ -16,8 +16,6 @@ if __name__ == "__somar__":
     somar()
 
 def main():
-
     somar()
-    
 if __name__ == "__main__":
     main()
