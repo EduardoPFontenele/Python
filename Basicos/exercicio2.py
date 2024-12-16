@@ -14,8 +14,6 @@ if __name__ == "__area_circunferencia__":
     area_circunferencia()
 
 def main():
-
     area_circunferencia()
-
 if __name__ == "__main__":
     main()
