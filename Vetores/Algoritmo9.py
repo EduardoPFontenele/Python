@@ -5,30 +5,20 @@
 
 def algoritmo9():
 
-    #Criando três vetores de n espaços
-    VETOR1 = []
-    VETOR2 = []
-    VETOR3 = []
+    VETOR = [] #Criando um vetor de n espaços
+    referencia = int(input("Informe um numero referencia: ")) #Usuario irá informar um valor referência
 
-    #Usuario informa um numero e o mesmo é guardado dentro de VETOR1
-    referencia = int(input("Informe o numero referente à posição [0]: "))
-    VETOR1.append(referencia)
+    for i in range(0,5):
 
-    #Laço para preencher VETOR1, incrementando +1 dado o numero informado
-    for i in range(1,5):
-        VETOR1.append(VETOR1[i - 1] + 1)
+        incremento = referencia + i #variável para incrementar à referencia
+        VETOR.append(incremento)
     
-    #Laço para inverter as posições de VETOR1 e guardar dentro de VETOR2
-    for j in range(len(VETOR1) - 1, -1, -1):
-        VETOR2.append(VETOR1[j])
+    for j in range(0,5):
+        decremento = referencia + 4 - j # Variável para decrementar a partir do último valor crescente
+        VETOR.append(decremento)
 
-    #VETOR3 armazenará os elementos de VETOR1 e VETOR2
-    VETOR3 = VETOR1 + VETOR2
 
-    print(VETOR3) #Mostra VETOR3
-        
-if __name__ == "__algoritmo9__":
-    algoritmo9()
+    print(VETOR) #Mostra vetor
 
 def main():
     algoritmo9()
