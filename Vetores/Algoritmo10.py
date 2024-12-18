@@ -1,3 +1,10 @@
+"Considere	um	vetor	de	inteiros,	com	capacidade	de	10	valores.	Leia	do	usuá rio	um	valor	inicial	"
+"de	 referência.	 Então,	 preencha	 o	 vetor	 de	 tal	 forma	 que	 o	 valor	 de	 referência	 deve	 ser"	
+"armazenado no	centro	do	vetor,	entã o	o	valor	de	referência	será	incrementado em	1.	O	novo"	
+"valor	de	referência	deve	ser	armazenado	nas	posiçõ es	anterior e	posterior ao	centro e	assim"	
+"sucessivamente,	até	preencher	o	vetor	até	as	pontas"
+
+
 def algoritmo10():
 
     VETOR = [] #Criando um vetor de n espaços
