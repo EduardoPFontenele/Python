@@ -1,0 +1,2 @@
+Data: 2025-03-17, Evento: Erro de conex~ao
+Data: 2025-03-17, Evento: Erro no servidor

@@ -1,0 +1,24 @@
+(média) Quem pintou a Mona Lisa?
+Van Gogh
+Michelangelo
+Leonardo da Vinci
+Picasso
+Resposta: c
+(média) Em que continente está o Egito?
+Europa
+Ásia
+África
+América
+Resposta: c
+(média) Quantos planetas há no Sistema Solar?
+7
+8
+9
+10
+Resposta: b
+(média) Qual letra do alfabeto representa o numero dez em algarismo romano?
+V
+C
+L
+X
+Resposta: d
